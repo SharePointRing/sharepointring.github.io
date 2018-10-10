@@ -49,10 +49,23 @@ app {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width: 90%;
+    float: left;
+}
+
+.nav-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 10%;
+    float: right;
 }
 
 #navbar .navbar-nav {
-    float: left;
+}
+
+#navbar .navbar-nav-right {
 }
 
 #navbar li a{
